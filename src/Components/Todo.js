@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { FcTodoList } from "react-icons/fc";
 import './style.css'
 const Todo = () => {
     const getLocalStorage = ()=>{
@@ -63,7 +64,7 @@ const Todo = () => {
             <div className="main-div">
                 <div className="child-div">
                     <figure>
-                        <img src="../todo-list-svgrepo-com.svg" alt="todo" />
+                        <FcTodoList className="todo-icon" />
                         <figcaption>Add Your List Here</figcaption>
                     </figure>
                     <div className="addItems">
