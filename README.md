@@ -1,4 +1,4 @@
-#Checkout the App
+# Checkout the App
 App Deployed At this web address: https://todo-list-react-app-v1.herokuapp.com/
 
 # Getting Started with Create React App
